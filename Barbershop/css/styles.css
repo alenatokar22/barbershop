@@ -1,0 +1,284 @@
+ul{ 
+    list-style: none; 
+    padding-left: 0px;
+}
+
+html,
+body{
+    /* min-width: 1122px;
+    min-height: 1750px; */
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url(../images/barbershop_index_grid.jpg) no-repeat;
+    background-size: 175%;
+}
+
+a{
+    color: #fff;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main_header {
+    /* min-height: 70px; */
+    height: 70px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    min-height: 70px;
+}
+
+.main_navigation {
+    float: left;
+    min-height: 70px;
+}
+
+.menu{
+    display: inline-flex;
+    padding: 15px;
+} 
+
+.user_block {
+    float: right;
+    padding: 30px;
+}
+
+.index_logo {
+    width: 368px;
+    min-height: 204px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+.features{
+    margin-bottom: 80px;
+}
+
+.features_item {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    min-height: 175px;
+    color: white;
+}
+
+.features_item:last-child{
+    margin-right: 0;
+}
+
+.features_name{
+    display: block;
+    text-align: center;
+}
+
+.rhombus{
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.index_content {
+    margin-bottom: 25px;
+    padding: 50px 80px;
+    background-color: white;
+}
+
+.indext_content_left {
+    float: left;
+    width: 380px;
+    /* min-height: 330px; */
+    height: 330px;
+}
+
+.index_content_right {
+    float: right;
+    width: 300px;
+    min-height: 330px;
+}
+
+.index_content_description{
+    padding: 0;
+}
+
+.appointment_form{
+    column-count: 2;
+}
+
+.form_left{
+    border: 2px solid #000;
+    margin: 8px 0;
+    height: 20px;
+    width: 145px;
+}
+
+.form_right{
+    border: 2px solid #000;
+    margin: 8px 0;
+    height: 18px;
+    width: 145px;
+}
+
+.btn{
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    width: 145px;
+    margin-top: 30px;
+}
+
+.gallery_prew{
+    margin-top: 25px;
+}
+
+.gallery_next{
+    margin-top: 25px;
+}
+
+.send{
+    width: 310px;
+    margin-top: 20px;
+}
+
+.news_preview{
+    margin-left: 0px;
+    font-size: 11px;
+    font-family: "PT Sans Narrow";
+    font-weight: regular;
+    height: 164px;
+    width: 300px;
+    color: #000;
+}
+
+.feature_item_description{
+    text-align: center;
+}
+
+p{
+    font-size: 12px;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 300px;
+} 
+
+.news_preview_description{
+    padding-bottom: 15px;
+}
+
+.news_preview_time{
+    font-size: 11px;
+}
+
+.gallery_content{
+    margin-left: 0;
+}
+
+.main_footer {
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.footer_contacts {
+    float: left;
+    width: 320px;
+    margin-right: 60px;
+    min-height: 90px;
+}
+
+.footer_social {
+    float: left;
+    width: 180px;
+    min-height: 90px;
+}
+
+.social_btn{
+    margin-right: 15px;
+}
+
+.footer_copyright {
+    float: right;
+    width: 180px;
+    min-height: 90px;
+} 
+
+@media (max-width: 1220px){
+    .container {
+        /* width: 1220px; */
+        margin: 30px 70px;
+    }
+    ul{
+        font-size: 22px;
+    }
+    .user_block{
+        font-size: 22px;
+        padding: 40px;
+    }
+    .features_name{
+        font-size: 20px;
+    }
+    p{
+        font-size: 13px;
+        
+    }
+    .features{
+        margin-bottom: 50px;
+    }
+    .index_content{
+        padding: 40px;
+    }
+    .indext_content_left,
+    .indext_content_right,
+    .main_header{
+       padding: 0;
+    }
+    .send{
+        margin-top: 35px;
+    } 
+}
+ 
+@media (max-width: 1140px){
+    .container {
+        /* width: 85%; */
+        padding: 0;
+    }
+    /* .user_block{
+      width: 145px;
+    } */
+} 
+/*
+@media (max-width: 992px){
+
+} 
+
+@media (max-width: 900px){
+
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 600px){
+
+}
+
+@media (max-width: 440px){
+
+}
+
+@media (max-width: 360px){
+
+}  */

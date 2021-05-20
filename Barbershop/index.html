@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Барбершоп "Токарь"</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Condensed&display=swap&subset=cyrillic" 
+  rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="main_header">
+        <div class="container">
+            <nav class="main_navigation">
+                <ul>
+                    <li class="menu"><a href="#">Главная</a></li>
+                    <li class="menu"><a href="#">Информация</a></li>
+                    <li class="menu"><a href="#">Новости</a></li>
+                    <li class="menu"><a href="#">Прайс-лист</a></li>
+                    <li class="menu"><a href="#">Магазин</a></li>
+                    <li class="menu"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="user_block">
+                <a class="login" href="#">Вход</a>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="index_logo">
+            <img src="images/Index_logo.jpg" width="368" height="204" alt="Барбершоп «Бородинский»">
+        </div>
+        <section class="features clearfix">
+            <div class="features_item">
+                <b class="features_name">БЫСТРО <center class="rhombus">&diams;</center></b>
+                <p class="feature_item_description">Мы делаем свою работу быстро! Два часа пролетят незаметнои 
+                    вы - счастливый обладатель стильной стрижки - минутки!</p>
+            </div>
+            <div class="features_item"> 
+                <b class="features_name"> КРУТО <center class="rhombus">&diams;</center></b>
+                <p class="feature_item_description">Забудьте, как вы стриглись раньше. Мы сделаем из вас 
+                    звезду футбола или кино! Во всяком случае внешне.</p>
+            </div>
+            <div class="features_item">
+                <b class="features_name">ДОРОГО  <center class="rhombus">&diams;</center></b>
+                <p class="feature_item_description">Наши мастера - профессионалы своего дела и не могут 
+                    стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+            </div>
+        </section>
+        <div class="index_content clearfix">
+            <div class="indext_content_left">
+                <h2 class="index_content_title">НОВОСТИ</h2>
+                <ul class="news_preview">
+                    <li>
+                        <p class="news_preview_description">Нам наконец завезли Ягермайстер! Теперь вы можете
+                            пропустить стаканчик во время стрижки</p>
+                        <time class="news_preview_time" datetime="2021-05-13">13 мая</time>
+                    </li>
+                    <li>
+                        <p class="news_preview_description">В нашей команде пополнение, Борис "Бритва" Стригунец, обладатель
+                            множества титулов и наград пополнил нашистройные ряды</p>
+                        <time class="news_preview_time" datetime="2021-05-11">11 мая</time>
+                    </li>
+                </ul>
+                <button class="btn"><a href="#">ВСЕ НОВОСТИ</a></button>
+            </div>
+            <div class="index_content_right">
+                <h2 class="index_content_title">ФОТОГАЛЕРЕЯ</h2>
+                <div class="gallery">
+                    <figure class="gallery_content">
+                        <img src="images/barbershop_index_grid.jpg" width="286" height="164" alt="">
+                    </figure>
+                    <button class="btn gallery_prew">НАЗАД</button>
+                    <button class="btn gallery_next">ВПЕРЕД</button>
+                </div>
+            </div>
+        </div>
+        <div class="index_content clearfix">
+            <div class="indext_content_left">
+                <h2 class="index_content_title">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+                <p class="news_preview_description">Барбершоп «Токарь» <br> 
+                   Адрес: г. Харьков, пр-кт Московский 216/3 <br> 
+                   Телефон: +38(050) 568-15-13 
+                </p>
+                <p>Время работы:<br>
+                   пн - пт: с 10:00 до 20:00 <br>
+                   сб - вс: с 10:00 до 17:00
+                </p>
+                <button class="btn index_content_btn"><a href="#">КАК ПРОЕХАТЬ</a></button>
+                <button class="btn index_content_btn"><a href="#">ОБРАТНАЯ СВЯЗЬ</a></button>
+            </div>
+            <div class="index_content_right">
+                <h2 class="index_content_title">ЗАПИСАТЬСЯ</h2>
+                <p class="index_content_description">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+                <form  class="appointment_form" action="https://echo.htmlacademy.ru" method="POST">
+                <input class="form_left" type="date" name="date" value="">
+                <input class="form_left" type="time" name="time" value="">
+                <input class="form_right" type="text" name="name" value="" placeholder="Ваше имя">
+                <input class="form_right" type="tel" name="phone" value="" placeholder="Телефон">
+                </form>
+                <button class="btn send" onclick="Onclick()">ОТПРАВИТЬ</button>
+            </div>
+        </div>
+    </main>
+    <footer class="main_footer">
+        <div class="container" >
+            <section class="footer_contacts">
+                Барбершоп «Токарь» <br> 
+                Адрес: г. Харьков, пр-кт Московский 216/3 <br> 
+                <a href="https://www.google.com.ua/maps/place/Харьков,+Харьковская+область/@49.9614177,36.3441032,16z/data=!4m5!3m4!1s0x4127a09f63ab0f8b:0x2d4c18681aa4be0a!8m2!3d49.9935!4d36.230383">Как нас найти?</a> <br>
+                Телефон: +38(050) 568-15-13
+            </section>
+            <section class="footer_social">
+                <p>Давайте дружить!</p>
+                <a class="social_btn social_btn_tl" href="https://web.telegram.org/#/im?p=u801969549_10503178186478539721">
+                    <img src="images/telegram.png" width="20" height="20" alt=""></a>
+                <a class="social_btn social_btn_lin" href="https://www.linkedin.com/in/alyona-tokar-817068194/">
+                    <img src="images/Linkedin.png" width="20" height="20" alt=""></a>
+                <a class="social_btn social_btn_yt" href="https://www.youtube.com/">
+                    <img src="images/youtube.png" width="30" height="20" alt=""></a>
+            </section>
+            <section class="footer_copyright">
+                <p>Разработано:</p>
+                <a href="#">Funtick_Fantick</a>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
